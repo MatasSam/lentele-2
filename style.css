@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+table {
+    margin: 50px auto;
+    border: 2px solid #FEC107;
+    border-collapse: collapse;
+    font-family: roboto;
+    width: 80%;
+    font-size: 20px;
+}
+
+td, th {
+    border: 3px solid white;
+    padding: 15px;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background: #F37ECF;
+}
+
+tr:nth-of-type(odd) {
+    background: #AF5593;
+}
+
+tr:first-of-type {
+    background: #86006F;
+}
